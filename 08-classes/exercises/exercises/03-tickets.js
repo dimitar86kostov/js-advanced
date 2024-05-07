@@ -27,9 +27,6 @@ function ticketStatistic(arr, criteria) {
     }
 }
 
-
-
-
 let res = ticketStatistic(['Philadelphia|94.20|available',
 
     'New York City|95.99|available',
@@ -40,24 +37,6 @@ let res = ticketStatistic(['Philadelphia|94.20|available',
 
 console.log(res);
 
-// print() {
-//     return `Destination: ${destination}, Price: ${price}, Status: ${status}`;
-// }
-
-// sorting() {
-//     for (let i = 0; i < input.length; i++) {
-//         const line = input[i].split("|");
-//         this.sorted.push(line);
-//     }
-//     console.log(this.sorted.sort());;
-// }
-
-// result() {
-
-//     for (const line of this.sorted) {
-
-//         finalResult.push(new Ticket(line[0], line[1], line[2]))
-//     }
 
 
 
